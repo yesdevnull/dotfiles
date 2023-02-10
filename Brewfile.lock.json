@@ -60,11 +60,6 @@
               "sha256": "6406ab3ded7afe973ce7464262c427d6ef97099fc7916309205401bdf6a828c2"
             }
           }
-        },
-        "options": {
-          "args": [
-            "with-openssl"
-          ]
         }
       },
       "coreutils": {

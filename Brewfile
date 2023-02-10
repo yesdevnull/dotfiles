@@ -16,7 +16,7 @@ tap "symfony-cli/tap"
 brew "bash"
 brew "bash-completion@2"
 brew "ca-certificates"
-brew "curl", args: ["with-openssl"]
+brew "curl"
 brew "coreutils"
 brew "git"
 brew "git-interactive-rebase-tool"
