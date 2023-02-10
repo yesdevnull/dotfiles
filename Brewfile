@@ -16,7 +16,7 @@ tap "symfony-cli/tap"
 brew "bash"
 brew "bash-completion@2"
 brew "ca-certificates"
-brew "curl"
+brew "curl", args: ["with-openssl"]
 brew "coreutils"
 brew "git"
 brew "git-interactive-rebase-tool"
@@ -30,6 +30,7 @@ brew "pinentry-mac" if OS.mac?
 brew "screen"
 brew "ssh-copy-id"
 brew "telnet"
+brew "wget"
 brew "zlib"
 brew "zopfli"
 
@@ -67,7 +68,6 @@ brew "skaffold"
 brew "exif"
 brew "exiftool"
 brew "ffmpeg"
-brew "flac"
 brew "yt-dlp"
 
 # Fonts
@@ -80,21 +80,35 @@ cask "1password-cli"
 cask "alfred"
 cask "bartender"
 cask "chromedriver"
+cask "dash"
 cask "drawio"
 cask "firefox-developer-edition", greedy: true
 cask "google-cloud-sdk", greedy: true
 cask "handbrake"
+cask "istat-menus"
+cask "imageoptim"
 cask "jetbrains-toolbox"
 cask "notion"
 cask "parsec"
 cask "plexamp"
+cask "postman"
+cask "sketch"
 cask "sublime-text"
 cask "transmit"
 cask "vagrant"
+cask "vlc"
 
 brew "mas"
-# mas "Gemini 2", id: 1090488118
+mas "1Password for Safari", id: 1569813296
+mas "Base", id: 402383384
+mas "DaisyDisk", id: 411643860
+mas "Gemini 2", id: 1090488118
+mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Harvest", id: 506189836
-# mas "Magnet", id: 441258766
-# mas "Screens 4", id: 1224268771
-# mas "xScope 4", id: 889428659
+mas "Magic Lasso", id: 1198047227
+mas "Magnet", id: 441258766
+mas "PDF Expert", id: 1055273043
+mas "Pixelmator Pro", id: 1289583905
+mas "Screens", id: 1224268771
+mas "Soulver 3", id: 1508732804
+mas "xScope", id: 889428659
