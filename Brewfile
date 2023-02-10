@@ -15,17 +15,18 @@ tap "symfony-cli/tap"
 # Core Tools
 brew "bash"
 brew "bash-completion@2"
+brew "ca-certificates"
 brew "curl"
+brew "curl-openssl"
 brew "coreutils"
 brew "git"
 brew "git-interactive-rebase-tool"
-brew "gnupg" if OS.mac?
+brew "gnupg", link: true if OS.mac?
 brew "gnu-sed"
 brew "grep"
 brew "htop"
 brew "make"
 brew "nano"
-brew "openssh"
 brew "pinentry-mac" if OS.mac?
 brew "screen"
 brew "ssh-copy-id"
@@ -39,6 +40,7 @@ brew "imagemagick"
 brew "redis", restart_service: :changed
 brew "gh"
 brew "go"
+brew "graphviz"
 brew "httpd"
 brew "hugo"
 brew "nginx"
@@ -60,6 +62,7 @@ brew "kubernetes-cli"
 brew "kustomize"
 brew "minikube"
 brew "skaffold"
+brew "terraform@0.12"
 
 # Audio/Visual
 brew "exif"
@@ -74,16 +77,15 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 
 # Apps
+cask "1password-cli"
 cask "alfred"
 cask "bartender"
 cask "chromedriver"
 cask "drawio"
-cask "firefox-developer-edition"
-cask "google-cloud-sdk"
+cask "firefox-developer-edition", greedy: true
+cask "google-cloud-sdk", greedy: true
 cask "handbrake"
 cask "jetbrains-toolbox"
-# cask "kaleidoscope"
-# cask "phpstorm"
 cask "notion"
 cask "parsec"
 cask "plexamp"
@@ -91,13 +93,9 @@ cask "sublime-text"
 cask "transmit"
 cask "vagrant"
 
-# mas "Apple Remote Desktop", id: 409907375
-# mas "Deliveries 3", id: 924726344
-# mas "Drop", id: 1173932628
+brew "mas"
 # mas "Gemini 2", id: 1090488118
 # mas "Harvest"
-# mas "iA Writer", id: 775737590
-# mas "JPEGmini", id: 498944723
 # mas "Magnet", id: 441258766
 # mas "Screens 4", id: 1224268771
 # mas "xScope 4", id: 889428659
