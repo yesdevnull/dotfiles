@@ -2,8 +2,8 @@
 
 Install everything
 
-    brew bundle
+    HOMEBREW_ACCEPT_EULA=y brew bundle
 
 Install everything and *remove* existing
 
-    brew bundle --cleanup
+    HOMEBREW_ACCEPT_EULA=y brew bundle --cleanup

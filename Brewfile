@@ -2,11 +2,14 @@
 # Specify a directory to install apps.
 cask_args appdir: "/Applications"
 
-# Required taps.
+# Core taps
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
+# Additional taps
+tap "humbug/box"
+tap "microsoft/mssql-release"
 tap "symfony-cli/tap"
 
 # Original bash path: /bin/bash
@@ -21,12 +24,13 @@ brew "coreutils"
 brew "git"
 brew "git-interactive-rebase-tool"
 brew "gnupg", link: true if OS.mac?
-brew "gnu-sed"
+brew "gnu-sed" if OS.mac?
 brew "grep"
 brew "htop"
 brew "make"
 brew "nano"
 brew "pinentry-mac" if OS.mac?
+brew "rsync"
 brew "screen"
 brew "ssh-copy-id"
 brew "telnet"
@@ -35,20 +39,28 @@ brew "zlib"
 brew "zopfli"
 
 # Development
+brew "act"
+brew "corepack"
 brew "geckodriver"
 brew "imagemagick"
 brew "redis", restart_service: :changed
 brew "gh"
 brew "go"
+brew "gobject-introspection"
 brew "graphviz"
 brew "httpd"
 brew "hugo"
+brew "msodbcsql17"
+brew "mssql-tools"
+brew "nghttp2"
 brew "nginx"
+brew "node"
 brew "node@16"
 brew "python"
 brew "sqlite"
 
 # PHP
+brew "box"
 # brew "php@7.4" || true
 brew "php@8.0" || true
 brew "php@8.1"
@@ -57,10 +69,13 @@ brew "symfony-cli"
 
 # DevOps
 brew "ansible"
+brew "azure-cli"
 brew "helm"
 brew "kubernetes-cli"
 brew "kustomize"
 brew "minikube"
+brew "packer"
+brew "protobuf"
 brew "skaffold"
 # brew "terraform@0.12"
 
@@ -105,10 +120,16 @@ mas "DaisyDisk", id: 411643860
 mas "Gemini 2", id: 1090488118
 mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Harvest", id: 506189836
+mas "Hush", id: 1544743900
+mas "Keynote", id: 409183694
 mas "Magic Lasso", id: 1198047227
 mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "PDF Expert", id: 1055273043
 mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 1224268771
+mas "StopTheMadness", id: 1376402589
 mas "Soulver 3", id: 1508732804
 mas "xScope", id: 889428659
