@@ -17,7 +17,6 @@ brew "bash"
 brew "bash-completion@2"
 brew "ca-certificates"
 brew "curl"
-brew "curl-openssl"
 brew "coreutils"
 brew "git"
 brew "git-interactive-rebase-tool"
@@ -49,7 +48,7 @@ brew "python"
 brew "sqlite"
 
 # PHP
-brew "php@7.4" || true
+# brew "php@7.4" || true
 brew "php@8.0" || true
 brew "php@8.1"
 brew "php"
@@ -62,7 +61,7 @@ brew "kubernetes-cli"
 brew "kustomize"
 brew "minikube"
 brew "skaffold"
-brew "terraform@0.12"
+# brew "terraform@0.12"
 
 # Audio/Visual
 brew "exif"
@@ -95,7 +94,7 @@ cask "vagrant"
 
 brew "mas"
 # mas "Gemini 2", id: 1090488118
-# mas "Harvest"
+mas "Harvest", id: 506189836
 # mas "Magnet", id: 441258766
 # mas "Screens 4", id: 1224268771
 # mas "xScope 4", id: 889428659
