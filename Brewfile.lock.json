@@ -3048,10 +3048,10 @@
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "3.6.21-69-g5cfb179",
-        "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "34b732b38991b8b2f26b592d87287ebc77937f19",
-        "CLT": "14.1.0.0.1.1666437224",
+        "HOMEBREW_VERSION": "3.6.21",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "d90b101d32ed15eb576f3f45aa2f37d0177971b7",
+        "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.1",
         "macOS": "13.2"
       }
