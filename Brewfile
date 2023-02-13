@@ -13,7 +13,7 @@ tap "microsoft/mssql-release"
 tap "symfony-cli/tap"
 
 # Original bash path: /bin/bash
-#     Brew bash path: /opt/homebrew/bin/bash
+#     Brew bash path: /usr/local/bin/bash
 
 # Core Tools
 brew "bash"
@@ -105,6 +105,10 @@ cask "handbrake"
 cask "istat-menus"
 cask "imageoptim"
 cask "jetbrains-toolbox"
+cask "microsoft-excel"
+cask "microsoft-outlook"
+cask "microsoft-remote-desktop"
+cask "microsoft-teams"
 cask "notion"
 cask "parsec"
 cask "plexamp"
@@ -126,7 +130,6 @@ mas "Hush", id: 1544743900
 mas "Keynote", id: 409183694
 mas "Magic Lasso", id: 1198047227
 mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PDF Expert", id: 1055273043

@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "22bd916380d2c6b9ed7cfe255d34a8c32d70411b"
+        "revision": "3eadf0fee4dbcef6124eb57fd1f3a491b6333235"
       },
       "symfony-cli/tap": {
         "revision": "0744d3f7f1c0fffd453bbc680d214e0c20e34110"
       },
       "homebrew/cask-versions": {
-        "revision": "100a9f95d68ff428e456d1e4549f5f094a7faab6"
+        "revision": "ca162e7c18ab391d62e71f7e5840ac78a33fa688"
       },
       "homebrew/services": {
         "revision": "a5998baa7cd6f4729d548456f37d202eed7767a4"
@@ -2964,6 +2964,42 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "microsoft-excel": {
+        "version": "16.69.23010700",
+        "options": {
+          "full_name": "microsoft-excel",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "microsoft-outlook": {
+        "version": "16.69.23010700",
+        "options": {
+          "full_name": "microsoft-outlook",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "microsoft-remote-desktop": {
+        "version": "10.8.0",
+        "options": {
+          "full_name": "microsoft-remote-desktop",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "microsoft-teams": {
+        "version": "1.6.00.1159",
+        "options": {
+          "full_name": "microsoft-teams",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -3027,10 +3063,7 @@
         "id": "409183694",
         "version": "12.2.1"
       },
-      "Microsoft Remote Desktop": {
-        "id": "1295203466",
-        "version": "10.8.1"
-      },
+      "Microsoft Remote Desktop": null,
       "Numbers": {
         "id": "409203825",
         "version": "12.2.1"
@@ -3050,9 +3083,9 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.21",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "d90b101d32ed15eb576f3f45aa2f37d0177971b7",
+        "Homebrew/homebrew-core": "55ccd8899f2bd81ae60a8e0b68529a5e42216d24",
         "CLT": "14.2.0.0.1.1668646533",
-        "Xcode": "14.1",
+        "Xcode": "14.2",
         "macOS": "13.2"
       }
     }
