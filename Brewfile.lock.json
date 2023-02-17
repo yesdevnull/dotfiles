@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "ee9dfcb1b863a37e7125b0d5b9ff447096d9fe14"
+        "revision": "464c6c1fabcefb00c44530d9b7830d0331498723"
       },
       "symfony-cli/tap": {
         "revision": "0744d3f7f1c0fffd453bbc680d214e0c20e34110"
@@ -3009,6 +3009,24 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "fission": {
+        "version": "2.8.3",
+        "options": {
+          "full_name": "fission",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "piezo": {
+        "version": "1.7.12",
+        "options": {
+          "full_name": "piezo",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -3092,7 +3110,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.21",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9065624a63871f4169b2e5f4e9760666168215ad",
+        "Homebrew/homebrew-core": "12e0ac6250cef10db08a9ebd7326ab9e43a9fab8",
         "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.2",
         "macOS": "13.2"
