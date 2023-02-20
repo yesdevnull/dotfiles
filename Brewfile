@@ -3,7 +3,6 @@
 cask_args appdir: "/Applications"
 
 # Core taps
-tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
