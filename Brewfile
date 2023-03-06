@@ -22,7 +22,6 @@ brew "curl"
 brew "coreutils"
 brew "git"
 brew "git-interactive-rebase-tool"
-brew "gnupg", link: true if OS.mac?
 brew "gnu-sed" if OS.mac?
 brew "grep"
 brew "htop"
