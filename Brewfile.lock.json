@@ -2961,6 +2961,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "microsoft-word": {
+        "version": "16.70.23021201",
+        "options": {
+          "full_name": "microsoft-word",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
