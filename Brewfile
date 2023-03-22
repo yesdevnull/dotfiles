@@ -93,6 +93,7 @@ cask "font-jetbrains-mono-nerd-font"
 # Apps
 cask "1password-cli"
 cask "alfred"
+cask "azure-data-studio"
 cask "bartender"
 cask "chromedriver"
 cask "dash"

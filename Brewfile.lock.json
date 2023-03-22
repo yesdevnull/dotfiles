@@ -2965,6 +2965,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "azure-data-studio": {
+        "version": "1.41.2",
+        "options": {
+          "full_name": "azure-data-studio",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
