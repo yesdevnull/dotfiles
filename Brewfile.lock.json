@@ -2755,7 +2755,6 @@
       "firefox-developer-edition": {
         "version": "latest",
         "options": {
-          "greedy": true,
           "full_name": "firefox-developer-edition",
           "args": {
             "appdir": "/Applications"
@@ -2765,7 +2764,6 @@
       "google-cloud-sdk": {
         "version": "latest",
         "options": {
-          "greedy": true,
           "full_name": "google-cloud-sdk",
           "args": {
             "appdir": "/Applications"

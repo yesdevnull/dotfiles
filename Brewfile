@@ -98,9 +98,9 @@ cask "bartender"
 cask "chromedriver"
 cask "dash"
 cask "drawio"
-cask "firefox-developer-edition", greedy: true
+cask "firefox-developer-edition"
 cask "fission"
-cask "google-cloud-sdk", greedy: true
+cask "google-cloud-sdk"
 cask "handbrake"
 cask "istat-menus"
 cask "imageoptim"
