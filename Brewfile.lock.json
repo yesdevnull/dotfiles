@@ -2967,6 +2967,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "slack": {
+        "version": "4.31.155",
+        "options": {
+          "full_name": "slack",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
