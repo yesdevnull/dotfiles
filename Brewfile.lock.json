@@ -2976,6 +2976,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "asana": {
+        "version": "1.13.0",
+        "options": {
+          "full_name": "asana",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
