@@ -14,6 +14,12 @@ source ~/.profile
 rustup completions bash > ~/.local/share/bash-completion/completions/rustup
 . ~/.local/share/bash-completion/completions/rustup
 
+# macOS Changes.
+
+# Configure the default screenshot location and format.
+defaults write com.apple.sceencapture location ~/Downloads
+defaults write com.apple.sceencapture type jpeg
+
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
