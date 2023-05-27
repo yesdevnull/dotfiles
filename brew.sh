@@ -20,6 +20,9 @@ rustup completions bash > ~/.local/share/bash-completion/completions/rustup
 defaults write com.apple.sceencapture location ~/Downloads
 defaults write com.apple.sceencapture type jpeg
 
+# Allow the press and hold character accent picker.
+defaults write -g ApplePressAndHoldEnabled -bool true
+
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
