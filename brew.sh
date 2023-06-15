@@ -23,6 +23,9 @@ defaults write com.apple.sceencapture type jpeg
 # Allow the press and hold character accent picker.
 defaults write -g ApplePressAndHoldEnabled -bool true
 
+# Git Changes.
+git config --global init.defaultBranch main
+
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
