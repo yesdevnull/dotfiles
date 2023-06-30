@@ -3070,6 +3070,10 @@
       "StopTheMadness": {
         "id": "1376402589",
         "version": "39.2"
+      },
+      "Tailscale": {
+        "id": "1475387142",
+        "version": "1.44.0"
       }
     }
   },

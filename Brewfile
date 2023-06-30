@@ -143,4 +143,5 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Screens", id: 1224268771
 mas "StopTheMadness", id: 1376402589
 mas "Soulver 3", id: 1508732804
+mas "Tailscale", id: 1475387142
 mas "xScope", id: 889428659
