@@ -124,6 +124,7 @@ cask "syncthing"
 cask "transmit"
 cask "vagrant"
 cask "vlc"
+cask "warp"
 
 brew "mas"
 mas "1Password for Safari", id: 1569813296
