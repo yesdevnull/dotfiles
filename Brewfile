@@ -7,6 +7,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 # Additional taps
+tap "hashicorp/tap"
 tap "humbug/box"
 tap "microsoft/mssql-release"
 tap "symfony-cli/tap"
@@ -81,7 +82,7 @@ brew "minikube"
 brew "packer"
 brew "protobuf"
 brew "skaffold"
-# brew "terraform@0.12"
+brew "hashicorp/tap/terraform"
 
 # Audio/Visual
 brew "exif"

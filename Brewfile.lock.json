@@ -18,6 +18,9 @@
       },
       "microsoft/mssql-release": {
         "revision": "f3d39ca01ba8b6a2c9ada7751abdd7bb5ad8a1c0"
+      },
+      "hashicorp/tap": {
+        "revision": "f0d91cf84ded6baeb9b9094c93e9c7f60c1022ab"
       }
     },
     "brew": {
@@ -3239,6 +3242,10 @@
             }
           }
         }
+      },
+      "hashicorp/tap/terraform": {
+        "version": "1.6.1",
+        "bottle": false
       }
     },
     "cask": {
