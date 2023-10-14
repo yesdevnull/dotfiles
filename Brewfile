@@ -66,9 +66,6 @@ brew "sqlite"
 
 # PHP
 brew "box"
-# brew "php@7.4" || true
-brew "php@8.0" || true
-brew "php@8.1"
 brew "php"
 brew "symfony-cli"
 
