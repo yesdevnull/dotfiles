@@ -63,6 +63,7 @@ brew "node"
 brew "node@16"
 brew "python"
 brew "sqlite"
+brew "tree"
 
 # PHP
 brew "box"
@@ -71,6 +72,7 @@ brew "symfony-cli"
 
 # DevOps
 brew "ansible"
+brew "awscli"
 brew "azure-cli"
 brew "helm"
 brew "kubernetes-cli"
