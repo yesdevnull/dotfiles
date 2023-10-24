@@ -3559,6 +3559,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "ngrok": {
+        "version": "3.3.5,9ZorZwrHqju,a",
+        "options": {
+          "full_name": "ngrok",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
