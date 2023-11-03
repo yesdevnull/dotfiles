@@ -3487,12 +3487,21 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "plex": {
+        "version": "1.80.3.4008,03daab12",
+        "options": {
+          "full_name": "plex",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
       "Harvest": {
         "id": "506189836",
-        "version": "2.4.1"
+        "version": "2.4.2"
       },
       "1Password for Safari": {
         "id": "1569813296",
@@ -3512,11 +3521,11 @@
       },
       "Ghostery – Privacy Ad Blocker": {
         "id": "1436953057",
-        "version": "10.2.0"
+        "version": "10.2.2"
       },
       "Magic Lasso": {
         "id": "1198047227",
-        "version": "4.0.1"
+        "version": "4.0.2"
       },
       "Magnet": {
         "id": "441258766",
@@ -3524,7 +3533,7 @@
       },
       "PDF Expert": {
         "id": "1055273043",
-        "version": "3.5.2"
+        "version": "3.6"
       },
       "Pixelmator Pro": {
         "id": "1289583905",
@@ -3536,7 +3545,7 @@
       },
       "Soulver 3": {
         "id": "1508732804",
-        "version": "3.9.1"
+        "version": "3.9.2"
       },
       "xScope": {
         "id": "889428659",
@@ -3561,7 +3570,7 @@
       },
       "StopTheMadness": {
         "id": "1376402589",
-        "version": "40.3"
+        "version": "40.4"
       },
       "Tailscale": {
         "id": "1475387142",
