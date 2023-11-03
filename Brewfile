@@ -82,6 +82,7 @@ brew "packer"
 brew "protobuf"
 brew "skaffold"
 brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/vault"
 
 # Audio/Visual
 brew "exif"

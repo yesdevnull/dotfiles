@@ -20,7 +20,7 @@
         "revision": "41be57958359b155909e7c72444047bead4b01d8"
       },
       "hashicorp/tap": {
-        "revision": "e16ad7f5019edd5d41117796c72a4cacbe7be426"
+        "revision": "efa807b8d6d692a3653cb5063c90c1c40b5122fa"
       }
     },
     "brew": {
@@ -3156,6 +3156,10 @@
             }
           }
         }
+      },
+      "hashicorp/tap/vault": {
+        "version": "1.15.0",
+        "bottle": false
       }
     },
     "cask": {
