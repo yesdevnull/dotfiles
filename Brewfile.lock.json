@@ -3469,9 +3469,18 @@
         }
       },
       "plex": {
-        "version": "1.81.0.4012,a9d3f098",
+        "version": "1.83.1.4061,d3f45728",
         "options": {
           "full_name": "plex",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "kaleidoscope": {
+        "version": "4.3.1,5042",
+        "options": {
+          "full_name": "kaleidoscope",
           "args": {
             "appdir": "/Applications"
           }
@@ -3481,11 +3490,11 @@
     "mas": {
       "Harvest": {
         "id": "506189836",
-        "version": "2.4.3"
+        "version": "2.4.4"
       },
       "1Password for Safari": {
         "id": "1569813296",
-        "version": "2.16.0"
+        "version": "2.17.1"
       },
       "Base": {
         "id": "402383384",
