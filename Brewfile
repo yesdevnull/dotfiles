@@ -67,7 +67,7 @@ brew "tree"
 
 # PHP
 brew "box"
-brew "php"
+brew "php@8.2", link: true
 brew "symfony-cli"
 
 # DevOps
