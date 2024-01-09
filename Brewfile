@@ -75,7 +75,7 @@ brew "ansible"
 brew "awscli"
 brew "azure-cli"
 brew "helm"
-brew "kubernetes-cli"
+brew "kubernetes-cli", link: false
 brew "kustomize"
 brew "minikube"
 brew "packer"
