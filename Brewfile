@@ -36,10 +36,6 @@ brew "telnet"
 brew "wget"
 brew "zlib"
 brew "zopfli"
-brew "zsh"
-brew "zsh-autocomplete"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
 
 # Development
 brew "act"
