@@ -5,13 +5,13 @@
         "revision": "12a12b6d2c45ba12e6bc040c960e4a35cffa8a48"
       },
       "homebrew/cask-versions": {
-        "revision": "953e276ea3574ac442e083f9296d92784eafd77f"
+        "revision": "57c683337c8d05d00d2a453fb56906a9930885d8"
       },
       "homebrew/services": {
         "revision": "d475ef7cce7fe49d1c7ee3fa310922dbf8fa6c4e"
       },
       "homebrew/cask-fonts": {
-        "revision": "781c67a24149c2ad6d96695d0293a798d7bd963f"
+        "revision": "c736de07dd5b9479a0905ce5aeb4f008aac7b6b7"
       },
       "humbug/box": {
         "revision": "17f3ee62a0e30e2a52f0b713b73686e969a73b69"
@@ -3090,7 +3090,7 @@
         }
       },
       "vagrant": {
-        "version": "2.4.0",
+        "version": "2.4.1",
         "options": {
           "full_name": "vagrant",
           "args": {
