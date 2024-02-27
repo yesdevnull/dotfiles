@@ -56,7 +56,7 @@ brew "mssql-tools"
 brew "nghttp2"
 brew "nginx"
 brew "nmap"
-brew "node"
+brew "homebrew/core/node"
 brew "pipenv"
 brew "python"
 brew "sqlite"
@@ -64,7 +64,7 @@ brew "tree"
 
 # PHP
 brew "box"
-brew "php@8.2", link: true
+brew "php"
 brew "symfony-cli"
 
 # DevOps
@@ -75,7 +75,7 @@ brew "helm"
 brew "kubernetes-cli", link: false
 brew "kustomize"
 brew "minikube"
-brew "packer"
+brew "hashicorp/tap/packer"
 brew "protobuf"
 brew "skaffold"
 brew "hashicorp/tap/terraform"
