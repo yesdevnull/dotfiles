@@ -3,8 +3,6 @@
 cask_args appdir: "/Applications"
 
 # Core taps
-tap "homebrew/cask-versions"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
 # Additional taps
 tap "hashicorp/tap"
@@ -98,7 +96,6 @@ cask "1password-cli"
 cask "alfred"
 cask "asana"
 cask "azure-data-studio"
-cask "bartender"
 cask "chromedriver"
 cask "dash"
 cask "drawio"
