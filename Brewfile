@@ -138,7 +138,7 @@ mas "1Password for Safari", id: 1569813296
 mas "Base", id: 402383384
 mas "DaisyDisk", id: 411643860
 mas "Gemini 2", id: 1090488118
-mas "Ghostery – Privacy Ad Blocker", id: 1436953057
+# mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Harvest", id: 506189836
 mas "Hush", id: 1544743900
 mas "Keynote", id: 409183694
